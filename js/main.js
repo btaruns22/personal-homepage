@@ -3,6 +3,33 @@
 import { initializeFlipCards } from './flip-cards.js';
 import { initializeThemeToggle } from './theme-toggle.js';
 
+// Photo click animation to reveal about text
+function initializePhotoClick() {
+  const profileImg = document.getElementById('profile-img');
+  const aboutText = document.getElementById('about-text');
+  const stats = document.querySelectorAll('.stat');
+
+  if (!profileImg || !aboutText) return;
+
+  profileImg.addEventListener('click', function() {
+    // Add spin animation to photo
+    this.classList.add('clicked');
+    
+    // Remove spin class after animation
+    setTimeout(() => {
+      this.classList.remove('clicked');
+    }, 600);
+
+    // Show text with animation
+    aboutText.classList.add('visible');
+    
+    // Show stats with stagger
+    stats.forEach(stat => {
+      stat.classList.add('visible');
+    });
+  });
+}
+
 // Smooth scroll for navigation links
 function initializeSmoothScroll() {
   const links = document.querySelectorAll('a[href^="#"]');
@@ -107,6 +134,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeSmoothScroll();
   initializeContactForm();
   initializeNavbarScroll();
+  initializePhotoClick(); 
 
   console.log('Portfolio initialized successfully!');
+
+  
 });
