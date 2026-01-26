@@ -1,0 +1,17 @@
+{
+  "name": "aarya-patil-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Aarya Patil - Full Stack Developer",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint js/**/*.js",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\""
+  },
+  "keywords": ["portfolio", "personal-website", "web-development"],
+  "author": "Aarya Patil",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.1.1"
+  }
+}
