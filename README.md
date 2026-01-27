@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Personal Homepage
 
 A modern portfolio website built with vanilla HTML5, CSS3, and ES6+ JavaScript to showcase my projects and skills.
 
