@@ -44,10 +44,10 @@ He checks for what new ideas the students are bringing in. Also goes through wha
 **Desktop Layout (Above the fold):**
 ```text
 +------------------------------------------------------------+
-| [AP]         Home  About  Projects  Blog  Contact   [☀️/🌙] |
+| [AP]         Home  About  Projects  Blog  Contact          |
 +------------------------------------------------------------+
 |                                                            |
-|                Hi, I'm Aarya Patil! 👋                     |
+|                Hi, I'm Aarya Patil!                        |
 |            Full Stack Developer & UI/UX Fan                |
 |                                                            |
 |      I make websites that look good and work well          |
