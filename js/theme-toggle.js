@@ -34,11 +34,9 @@ function toggleTheme() {
 
 // Initialize theme toggle
 function initializeThemeToggle() {
-  // Apply saved theme on load
   const savedTheme = getSavedTheme();
   applyTheme(savedTheme);
 
-  // Add event listener to toggle button
   const toggleButton = document.getElementById('theme-toggle');
 
   if (toggleButton) {
