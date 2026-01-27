@@ -1,6 +1,5 @@
 // flip-cards.js - ES6 Module for 3D Flip Card Functionality
 
-// Project data
 const projects = [
   {
     id: 1,
@@ -15,8 +14,7 @@ const projects = [
       'Statistics dashboard',
       'Responsive design',
     ],
-    liveUrl: 'https://aaryapatil113.github.io/airbnb-listings/',
-    githubUrl: 'https://github.com/aaryapatil113/airbnb-listings',
+    githubUrl: 'github.com/aaryapatil113',
   },
   {
     id: 2,
