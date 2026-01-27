@@ -3,7 +3,6 @@
 import { initializeFlipCards } from './flip-cards.js';
 import { initializeThemeToggle } from './theme-toggle.js';
 
-// Smooth scroll for navigation links
 function initializeSmoothScroll() {
   const links = document.querySelectorAll('a[href^="#"]');
 
@@ -26,7 +25,6 @@ function initializeSmoothScroll() {
   });
 }
 
-// Form validation and submission
 function initializeContactForm() {
   const form = document.getElementById('contact-form');
   const formStatus = document.getElementById('form-status');
@@ -71,7 +69,6 @@ function initializeContactForm() {
   }
 }
 
-// Scroll reveal animation
 function initializeScrollReveal() {
   const sections = document.querySelectorAll('section');
 
@@ -94,7 +91,6 @@ function initializeScrollReveal() {
   });
 }
 
-// Navbar scroll effect
 function initializeNavbarScroll() {
   const navbar = document.getElementById('navbar');
 
@@ -109,7 +105,6 @@ function initializeNavbarScroll() {
   });
 }
 
-// Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Initializing portfolio...');
 
