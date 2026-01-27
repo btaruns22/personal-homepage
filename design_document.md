@@ -39,6 +39,8 @@ They immediately get impressed and tries to send me a message through contact se
 Story 3: The professor checks if whatever has been taught in the class is used in practice.
 He checks for what new ideas the students are bringing in. Also goes through what suggestions he can give it to me and drops it in the message section.
 
+Story 4: Someoone is opening the website late at night in the dark. the toggle theme helps them to view in dark mode.
+
 ### 4. Design Mockups
 
 **Desktop Layout (Above the fold):**
