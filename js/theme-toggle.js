@@ -2,17 +2,14 @@
 
 const THEME_KEY = 'preferred-theme';
 
-// Get saved theme or default to dark
 function getSavedTheme() {
   return localStorage.getItem(THEME_KEY) || 'dark';
 }
 
-// Save theme preference
 function saveTheme(theme) {
   localStorage.setItem(THEME_KEY, theme);
 }
 
-// Apply theme to document
 function applyTheme(theme) {
   if (theme === 'light') {
     document.body.classList.add('light-theme');
@@ -21,7 +18,6 @@ function applyTheme(theme) {
   }
 }
 
-// Toggle between themes
 function toggleTheme() {
   const currentTheme = document.body.classList.contains('light-theme')
     ? 'light'
@@ -32,7 +28,6 @@ function toggleTheme() {
   saveTheme(newTheme);
 }
 
-// Initialize theme toggle
 function initializeThemeToggle() {
   const savedTheme = getSavedTheme();
   applyTheme(savedTheme);
