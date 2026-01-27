@@ -3,7 +3,6 @@
 import { projects } from './flip-cards.js';
 import { initializeThemeToggle } from './theme-toggle.js';
 
-// Create flip card
 function createFlipCard(project) {
   const card = document.createElement('div');
   card.className = 'flip-card';
@@ -38,7 +37,6 @@ function createFlipCard(project) {
   return card;
 }
 
-// Initialize all projects
 function initializeAllProjects() {
   const grid = document.getElementById('all-projects-grid');
   if (!grid) return;
@@ -49,7 +47,6 @@ function initializeAllProjects() {
     grid.appendChild(card);
   });
 
-  // Add mobile flip support
   const cards = document.querySelectorAll('.flip-card');
   cards.forEach((card) => {
     card.addEventListener('click', function () {
@@ -60,7 +57,6 @@ function initializeAllProjects() {
   });
 }
 
-// Initialize on load
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Projects page initialized');
   initializeAllProjects();
