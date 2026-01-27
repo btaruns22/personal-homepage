@@ -39,19 +39,22 @@ They immediately get impressed and tries to send me a message through contact se
 Story 3: The professor checks if whatever has been taught in the class is used in practice.
 He checks for what new ideas the students are bringing in. Also goes through what suggestions he can give it to me and drops it in the message section.
 
-4. Design Mockups.
+### 4. Design Mockups
 
-   Top of page (what you see without scrolling):
-   +--------------------------------------------------+
-   | Logo Navigation Theme |
-   | |
-   | Hi, I'm Aarya Patil! 👋 |
-   | Full Stack Developer & UI/UX Fan |
-   | |
-   | I make websites that look good and work well |
-   | |
-   | [Button] [Button] |
-   +--------------------------------------------------+
+**Desktop Layout (Above the fold):**
+```text
++------------------------------------------------------------+
+| [AP]         Home  About  Projects  Blog  Contact   [☀️/🌙] |
++------------------------------------------------------------+
+|                                                            |
+|                Hi, I'm Aarya Patil! 👋                     |
+|            Full Stack Developer & UI/UX Fan                |
+|                                                            |
+|      I make websites that look good and work well          |
+|                                                            |
+|            [View Projects]    [Get In Touch]               |
+|                                                            |
++------------------------------------------------------------+
 
 Project Cards (The Cool Part):
 Before you hover:
