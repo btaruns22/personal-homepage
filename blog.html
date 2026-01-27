@@ -11,7 +11,6 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <title>Blog | Aarya Patil</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,11 +18,9 @@
       rel="stylesheet"
     />
 
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="container">
         <a href="index.html" class="logo">AP</a>
@@ -46,7 +43,6 @@
       </div>
     </nav>
 
-    <!-- Blog Header -->
     <section class="page-header">
       <div class="container">
         <h1 class="page-title">Tech Blog</h1>
@@ -60,204 +56,107 @@
       </div>
     </section>
 
-    <!-- Blog Posts -->
     <section class="blog-section">
       <div class="container">
         <div class="blog-grid">
-          <!-- Blog Post 1 -->
           <article class="blog-post">
             <div class="blog-image">
               <img
-                src="https://via.placeholder.com/800x400/667eea/ffffff?text=ES6+Modules"
+                src="https://placehold.co/800x400/667eea/ffffff?text=ES6+Modules"
                 alt="ES6 Modules Illustration"
+                onerror="this.src='https://placehold.co/800x400?text=Blog+Post'"
               />
             </div>
             <div class="blog-content">
-              <span class="blog-date">January 20, 2025</span>
+              <time class="blog-date" datetime="2025-01-20">January 20, 2025</time>
               <h2>Understanding ES6 Modules in Modern JavaScript</h2>
               <p>
                 ES6 modules have revolutionized how we organize JavaScript code.
                 By allowing import and export statements, they enable better
-                code organization, reusability, and maintainability. In this
-                post, I explore the benefits of modular JavaScript and how it
-                compares to traditional script loading.
+                code organization, reusability, and maintainability.
               </p>
-              <p>
-                Key advantages include scope isolation, explicit dependencies,
-                and tree-shaking capabilities in modern bundlers. Moving from
-                global scope pollution to clean, modular architecture has been a
-                game-changer for large-scale applications.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">JavaScript</span>
-                <span class="blog-tag">ES6</span>
-                <span class="blog-tag">Web Development</span>
-              </div>
+              <ul class="blog-tags">
+                <li class="blog-tag">JavaScript</li>
+                <li class="blog-tag">ES6</li>
+                <li class="blog-tag">Web Development</li>
+              </ul>
             </div>
           </article>
 
-          <!-- Blog Post 2 -->
           <article class="blog-post">
             <div class="blog-image">
               <img
-                src="https://via.placeholder.com/800x400/764ba2/ffffff?text=CSS+Grid"
+                src="https://placehold.co/800x400/764ba2/ffffff?text=CSS+Grid"
                 alt="CSS Grid Layout"
+                onerror="this.src='https://placehold.co/800x400?text=Blog+Post'"
               />
             </div>
             <div class="blog-content">
-              <span class="blog-date">January 15, 2025</span>
+              <time class="blog-date" datetime="2025-01-15">January 15, 2025</time>
               <h2>CSS Grid vs Flexbox: Choosing the Right Tool</h2>
               <p>
                 When building responsive layouts, developers often wonder
-                whether to use CSS Grid or Flexbox. The truth is, both are
-                powerful tools with different strengths. Grid excels at
-                two-dimensional layouts with precise control over rows and
-                columns, while Flexbox shines in one-dimensional arrangements.
+                whether to use CSS Grid or Flexbox. Grid excels at
+                two-dimensional layouts while Flexbox shines in one-dimension.
               </p>
-              <p>
-                I've found that combining both creates the most flexible and
-                maintainable layouts. Use Grid for overall page structure and
-                Flexbox for component-level alignment. This hybrid approach
-                leverages the best of both worlds.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">CSS</span>
-                <span class="blog-tag">Responsive Design</span>
-                <span class="blog-tag">Layout</span>
-              </div>
+              <ul class="blog-tags">
+                <li class="blog-tag">CSS</li>
+                <li class="blog-tag">Responsive</li>
+                <li class="blog-tag">Layout</li>
+              </ul>
             </div>
           </article>
 
-          <!-- Blog Post 3 -->
           <article class="blog-post">
             <div class="blog-image">
               <img
-                src="https://via.placeholder.com/800x400/3b82f6/ffffff?text=Async+JavaScript"
+                src="https://placehold.co/800x400/3b82f6/ffffff?text=Async+JS"
                 alt="Async JavaScript"
+                onerror="this.src='https://placehold.co/800x400?text=Blog+Post'"
               />
             </div>
             <div class="blog-content">
-              <span class="blog-date">January 10, 2025</span>
+              <time class="blog-date" datetime="2025-01-10">January 10, 2025</time>
               <h2>Mastering Async/Await in JavaScript</h2>
               <p>
-                Asynchronous programming can be challenging for developers
-                transitioning from synchronous paradigms. The introduction of
-                async/await syntax in ES2017 made asynchronous code more
-                readable and easier to reason about compared to traditional
-                callback and promise chains.
+                Asynchronous programming can be challenging. The introduction of
+                async/await syntax in ES2017 made code more readable compared to 
+                promise chains.
               </p>
-              <p>
-                Through my projects, I've learned that proper error handling
-                with try-catch blocks, understanding the event loop, and knowing
-                when to parallelize requests with Promise.all() are essential
-                skills for modern JavaScript development.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">JavaScript</span>
-                <span class="blog-tag">Async</span>
-                <span class="blog-tag">Best Practices</span>
-              </div>
+              <ul class="blog-tags">
+                <li class="blog-tag">JavaScript</li>
+                <li class="blog-tag">Async</li>
+                <li class="blog-tag">ES6+</li>
+              </ul>
             </div>
           </article>
 
-          <!-- Blog Post 4 -->
           <article class="blog-post">
             <div class="blog-image">
               <img
-                src="https://via.placeholder.com/800x400/10b981/ffffff?text=UI+UX+Design"
+                src="https://placehold.co/800x400/10b981/ffffff?text=UI+UX+Design"
                 alt="UI/UX Design Principles"
+                onerror="this.src='https://placehold.co/800x400?text=Blog+Post'"
               />
             </div>
             <div class="blog-content">
-              <span class="blog-date">January 5, 2025</span>
-              <h2>The Intersection of UI/UX and Front-End Development</h2>
+              <time class="blog-date" datetime="2025-01-05">January 5, 2025</time>
+              <h2>The Intersection of UI/UX and Front-End</h2>
               <p>
-                As someone passionate about both design and development, I've
-                discovered that the best interfaces emerge when these
-                disciplines work in harmony. Understanding design principles
-                like visual hierarchy, color theory, and accessibility
-                guidelines makes me a better developer.
+                Understanding design principles like visual hierarchy and accessibility 
+                guidelines makes for a better developer.
               </p>
-              <p>
-                Tools like Figma have bridged the gap between design and code,
-                allowing developers to inspect designs, extract CSS properties,
-                and collaborate seamlessly with designers. This integration has
-                transformed how we build user interfaces.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">UI/UX</span>
-                <span class="blog-tag">Design</span>
-                <span class="blog-tag">Frontend</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Blog Post 5 -->
-          <article class="blog-post">
-            <div class="blog-image">
-              <img
-                src="https://via.placeholder.com/800x400/ef4444/ffffff?text=Machine+Learning"
-                alt="Machine Learning in Web"
-              />
-            </div>
-            <div class="blog-content">
-              <span class="blog-date">December 28, 2024</span>
-              <h2>Integrating Machine Learning Models in Web Applications</h2>
-              <p>
-                My work on OncoFusion taught me valuable lessons about bridging
-                machine learning and web technologies. Deploying ML models to
-                production requires careful consideration of model size,
-                inference speed, and user experience.
-              </p>
-              <p>
-                Technologies like TensorFlow.js enable running models directly
-                in the browser, opening new possibilities for privacy-preserving
-                AI applications. The future of web development increasingly
-                involves AI integration at the edge.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">Machine Learning</span>
-                <span class="blog-tag">AI</span>
-                <span class="blog-tag">TensorFlow</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Blog Post 6 -->
-          <article class="blog-post">
-            <div class="blog-image">
-              <img
-                src="https://via.placeholder.com/800x400/f59e0b/ffffff?text=Career+Growth"
-                alt="Career Growth"
-              />
-            </div>
-            <div class="blog-content">
-              <span class="blog-date">December 20, 2024</span>
-              <h2>My Journey from India to Northeastern University</h2>
-              <p>
-                Transitioning from Computer Engineering in Pune to pursuing a
-                Master's at Northeastern has been transformative. The hands-on,
-                co-op focused curriculum aligns perfectly with my goal of
-                becoming a well-rounded full-stack developer.
-              </p>
-              <p>
-                Every project, every challenge, and every line of code written
-                here contributes to my growth. I'm grateful for the opportunity
-                to learn from world-class faculty and collaborate with talented
-                peers from diverse backgrounds.
-              </p>
-              <div class="blog-tags">
-                <span class="blog-tag">Personal</span>
-                <span class="blog-tag">Education</span>
-                <span class="blog-tag">Career</span>
-              </div>
+              <ul class="blog-tags">
+                <li class="blog-tag">UI/UX</li>
+                <li class="blog-tag">Design</li>
+                <li class="blog-tag">Frontend</li>
+              </ul>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Newsletter CTA -->
     <section class="cta-section">
       <div class="container">
         <h2>Stay Updated</h2>
@@ -276,7 +175,6 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <p>&copy; 2025 Aarya Patil. All rights reserved.</p>
@@ -287,7 +185,6 @@
       </div>
     </footer>
 
-    <!-- JavaScript Modules -->
     <script type="module" src="js/blog-page.js"></script>
   </body>
 </html>
