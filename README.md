@@ -25,7 +25,7 @@ Create a personal portfolio that showcases my technical skills, projects, and ex
 
 ## Screenshot
 
-![Portfolio Homepage](images/screenshot.png)
+![Portfolio Homepage](images/screenshots.png)
 
 ## Key Features
 
