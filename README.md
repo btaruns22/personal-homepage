@@ -1,283 +1,150 @@
-# 🏠 Personal Portfolio - Aarya Patil
+# Personal Portfolio Website
 
-A modern, responsive personal portfolio website featuring 3D flip card animations and interactive components built with vanilla HTML5, CSS3, and ES6+ JavaScript.
+A modern portfolio website built with vanilla HTML5, CSS3, and ES6+ JavaScript to showcase my projects and skills.
 
-![Portfolio Screenshot](images/screenshot.png)
+## Author
 
-## 🔗 Live Demo
-
-**[View Live Site](https://aaryapatil113.github.io/personal-homepage/)**
-
-## 👨‍💻 Author
-
-**Aarya Patil**  
+Aarya Patil  
 Master's Student in Computer Science  
-Northeastern University - Khoury College  
-[LinkedIn](https://linkedin.com/in/aarya-patil) | [GitHub](https://github.com/aaryapatil113)
+Northeastern University - Khoury College
 
-## 🎯 Project Objective
+## Website URL
 
-This project demonstrates proficiency in front-end web development by creating a personal portfolio website that showcases:
+https://aaryapatil113.github.io/personal-homepage/
 
-- Modern JavaScript (ES6+ modules)
-- Responsive CSS design (Grid & Flexbox)
-- Interactive 3D animations
-- Multi-page navigation
-- Form validation
-- Theme switching
-- Semantic HTML5
+## Class Information
 
-**Course:** Web Development - Northeastern University  
-**Instructor:** Professor John Guerra Gomez  
-**Class Link:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_fall_2024/)
+**Course:** Web Development  
+**Professor:** John Guerra Gomez  
+**Semester:** Spring 2025  
+**Class Link:** https://northeastern.instructure.com/courses/245751
 
-## ✨ Creative Feature: 3D Flip Cards
+## Project Objective
 
-The standout feature of this portfolio is the **interactive 3D flip card gallery** for projects:
+Create a personal portfolio that showcases my technical skills, projects, and experience in an engaging way. The goal was to build something  that stands out to recruiters and demonstrates proficiency in modern web development.
 
-- **Front Side:** Project thumbnail, title, and tech stack tags
-- **Back Side:** Detailed description, features list, and action buttons
-- **Interaction:** Hover to flip (desktop) or click to flip (mobile)
-- **Animation:** Smooth 3D transform with perspective effect
+## Screenshot
 
-This creates an engaging, memorable way to showcase projects that goes beyond standard card layouts.
+![Portfolio Homepage](images/screenshot.png)
 
-## 🛠️ Technologies Used
+## Key Features
 
-- **HTML5** - Semantic markup structure
-- **CSS3** - Modern styling with:
-  - CSS Grid for layout
-  - Flexbox for components
-  - CSS Variables for theming
-  - 3D transforms for flip animation
-  - Smooth transitions and animations
-- **JavaScript (ES6+)**:
-  - ES6 Modules
-  - Async/Await
-  - Arrow functions
-  - Template literals
-  - DOM manipulation
-  - Event handling
-- **Tools**:
-  - Git/GitHub for version control
-  - ESLint for code quality
-  - Prettier for formatting
-  - W3C Validator for compliance
+- Interactive 3D flip cards for project showcase
+- Dark/Light theme toggle with localStorage persistence
+- Fully responsive design (mobile, tablet, desktop)
+- Contact form with client-side validation
+- Three separate pages (Home, Projects, Blog)
+- Smooth scroll navigation
+- AI-generated blog content
 
-## 📁 Project Structure
+## Technologies Used
 
+- HTML5 - Semantic markup
+- CSS3 - Grid, Flexbox, 3D transforms, animations
+- JavaScript (ES6+) - Modules, async/await, DOM manipulation
+- Git/GitHub - Version control and deployment
+- GitHub Pages - Hosting
+
+## Project Structure
 ```
 personal-homepage/
 ├── index.html              # Main homepage
-├── projects.html           # All projects page
-├── blog.html              # AI-generated blog page
+├── projects.html           
+├── blog.html              # AI-generated blog
 ├── css/
-│   └── styles.css         # Main stylesheet
+│   └── styles.css        
 ├── js/
-│   ├── main.js           # Main entry point (ES6 module)
-│   ├── flip-cards.js     # 3D flip card logic
-│   ├── theme-toggle.js   # Dark/light theme switcher
-│   ├── projects-page.js  # Projects page logic
-│   └── blog-page.js      # Blog page logic
-├── images/
-│   ├── favicon.png       # Site favicon
-│   ├── profile.jpg       # Profile photo
-│   └── project*.jpg      # Project screenshots
-├── .eslintrc.json        # ESLint configuration
-├── .prettierrc           # Prettier configuration
-├── package.json          # Project dependencies
-├── LICENSE               # MIT License
-└── README.md             # This file
+│   ├── main.js           
+│   ├── flip-cards.js     
+│   ├── theme-toggle.js   
+│   ├── projects-page.js  
+│   └── blog-page.js      
+├── images/               
+├── design_document.md    
+├── package.json          
+├── .eslintrc.json     
+├── .prettierrc          
+└── README.md           
 ```
 
-## 🚀 Features
-
-### Core Features
-
-- ✅ Responsive design (mobile, tablet, desktop)
-- ✅ Dark/Light theme toggle with localStorage persistence
-- ✅ Smooth scroll navigation
-- ✅ Contact form with validation
-- ✅ Three separate HTML pages with unique URLs
-- ✅ SEO optimized with meta tags
-
-### Interactive Elements
-
-- ✅ **3D Flip Cards** - Hover/click to reveal project details
-- ✅ **Theme Toggle** - Switch between dark and light modes
-- ✅ **Form Validation** - Client-side email and input validation
-- ✅ **Smooth Scrolling** - Seamless navigation between sections
-- ✅ **Responsive Navigation** - Adapts to different screen sizes
-
-### Technical Features
-
-- ✅ ES6 Modules for code organization
-- ✅ No external libraries (vanilla JavaScript)
-- ✅ CSS Grid and Flexbox for layouts
-- ✅ W3C compliant HTML
-- ✅ ESLint compliant JavaScript
-- ✅ Prettier formatted code
-- ✅ All images have alt attributes
-- ✅ Semantic HTML5 elements
-
-## 📋 Setup Instructions
+## Build Instructions
 
 ### Prerequisites
-
-- Node.js (for ESLint and Prettier)
-- Python 3 (for local server) or any HTTP server
+- Node.js installed (for development tools)
+- Python 3 or any HTTP server (for local testing)
 - Modern web browser
 
-### Local Development
+### Setup
 
-1. **Clone the repository**
-
+1. Clone the repository
 ```bash
-   git clone https://github.com/Aaryapatil113/personal-homepage.git
-   cd personal-homepage
+git clone https://github.com/Aaryapatil113/personal-homepage.git
+cd personal-homepage
 ```
 
-2. **Install dependencies**
-
+2. Install dependencies (for ESLint and Prettier)
 ```bash
-   npm install
+npm install
 ```
 
-3. **Run local server** (required for ES6 modules)
-
+3. Run local server (required for ES6 modules)
 ```bash
-   # Using Python
-   python3 -m http.server 8000
-
-   # Or use VS Code Live Server extension
+python3 -m http.server 8000
 ```
 
-4. **Open in browser**
-
+4. Open browser and navigate to
 ```
-   http://localhost:8000
+http://localhost:8000
 ```
 
-### Build Commands
-
+### Development Commands
 ```bash
-# Check code quality
-npm run lint
-
 # Format code
 npm run format
+
+# Check code quality
+npm run lint
 ```
 
-## 🎨 Design Decisions
+## Creative Feature
 
-### Color Palette
+The standout feature is the 3D flip card gallery for projects. Each card displays a project thumbnail and title on the front, then flips on hover to reveal a detailed description, features list, and action buttons.
 
-- **Dark Theme (Default):**
-  - Background: `#0f172a` (Navy)
-  - Accent: `#3b82f6` (Blue)
-  - Text: `#e2e8f0` (Light Gray)
-  - Gradient: Purple to Blue
-- **Light Theme:**
-  - Background: `#ffffff` (White)
-  - Text: `#1e293b` (Dark Gray)
-  - Maintains same accent colors
+On mobile devices, cards flip when tapped instead of hovered for a smooth touch experience.
 
-### Typography
+## Use of AI Tools
 
-- **Headings:** Poppins (Bold, Modern)
-- **Body:** Inter (Clean, Readable)
-- **Sizing:** Responsive with rem units
+I used Claude AI and google gemini
 
-### Layout Philosophy
+**How AI was used:**
+- Debugging ES6 module issues during local development 
+- Images werent loading for some reason.
+- Troubleshooting Git merge conflicts 
 
-- Mobile-first responsive design
-- Maximum content width: 1200px
-- Generous whitespace for readability
-- Card-based components for consistency
+**Example prompts used:**
+- "What error is this exactly"
+- "How do i merge my local and git, since changes were made on git only"
+- "Why are the images not loading"
 
-## 📱 Pages Overview
+## Compliance Checklist
 
-### 1. Home (index.html)
+- W3C validated HTML
+- ESLint compliant JavaScript
+- Prettier formatted code
+- All images have alt attributes
+- Semantic HTML5 elements throughout
+- ES6 modules with proper import/export
+- No external frameworks or jQuery
+- Responsive design with CSS Grid and Flexbox
+- MIT licensed
 
-- Hero section with introduction
-- About section with profile photo and stats
-- Featured projects with 3D flip cards (6 projects)
-- Skills organized by category
-- Contact form and information
-- Footer with links
+## License
 
-### 2. Projects (projects.html)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Complete project gallery
-- All projects displayed with flip cards
-- Call-to-action section
-- Consistent navigation
+## Acknowledgments
 
-### 3. Blog (blog.html) - AI Generated
+Professor John Guerra Gomez for the course instruction and guidance  
+Northeastern University for educational resources  
+Claude AI for assistance and debugging support
 
-- Six blog posts on web development topics
-- AI-generated content about:
-  - ES6 Modules
-  - CSS Grid vs Flexbox
-  - Async/Await
-  - UI/UX Design
-  - Machine Learning integration
-  - Personal journey
-- Newsletter subscription form
-- Tag-based categorization
-
-## ✅ Requirements Checklist
-
-- ✅ Uses ES6 modules (`type="module"`)
-- ✅ Original creative component (3D flip cards)
-- ✅ Deployed on GitHub Pages
-- ✅ CSS/JS/Images in organized folders
-- ✅ Meta tags for author, description, icon
-- ✅ Original JavaScript functionality (100+ lines)
-- ✅ Formatted with Prettier
-- ✅ W3C compliant
-- ✅ ESLint compliant
-- ✅ All images have alt attributes
-- ✅ At least 3 HTML pages with different URLs
-- ✅ Uses classes for element identification
-- ✅ Standard HTML tags (buttons, forms, etc.)
-- ✅ CSS without !important
-- ✅ Uses CSS Grid and Flexbox
-- ✅ Clear and descriptive README
-- ✅ package.json with dependencies
-- ✅ MIT License included
-
-## 🎥 Video Demo
-
-[Watch Video Demo](https://youtu.be/YOUR_VIDEO_LINK) _(To be added)_
-
-## 🐛 Known Issues
-
-- Some project images use placeholders (actual screenshots to be added)
-- Form submission is simulated (no backend)
-- Newsletter subscription is front-end only
-
-## 🔮 Future Enhancements
-
-- [ ] Add blog post filtering by tags
-- [ ] Implement dark mode transition animation
-- [ ] Add project filtering by technology
-- [ ] Integrate with a headless CMS for blog
-- [ ] Add analytics tracking
-- [ ] Implement actual contact form backend
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Professor John Guerra Gomez** - Course instruction and guidance
-- **Northeastern University** - Educational resources
-- **Google Fonts** - Typography (Inter & Poppins)
-- **Placeholder.com** - Temporary image placeholders
-- **Claude AI** - Code assistance and debugging support
-
----
-
-**Built with ❤️ by Aarya Patil | January 2025**
