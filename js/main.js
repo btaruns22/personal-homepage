@@ -74,21 +74,21 @@ function initializeContactForm() {
 // Scroll reveal animation
 function initializeScrollReveal() {
   const sections = document.querySelectorAll('section');
-  
+
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
+    rootMargin: '0px 0px -100px 0px',
   };
-  
+
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('section-visible');
       }
     });
   }, observerOptions);
-  
-  sections.forEach(section => {
+
+  sections.forEach((section) => {
     section.classList.add('section-hidden');
     observer.observe(section);
   });
@@ -97,7 +97,7 @@ function initializeScrollReveal() {
 // Navbar scroll effect
 function initializeNavbarScroll() {
   const navbar = document.getElementById('navbar');
-  
+
   window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
 
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeSmoothScroll();
   initializeContactForm();
   initializeNavbarScroll();
-  initializeScrollReveal(); 
+  initializeScrollReveal();
 
   console.log('Portfolio initialized successfully!');
 });

@@ -55,8 +55,7 @@ const projects = [
     title: 'E-Portfolio Website',
     image: 'images/project4.jpg',
     tech: ['HTML5', 'CSS3', 'ES6+'],
-    description:
-      'Basic Portfolio ',
+    description: 'Basic Portfolio ',
     features: [
       'Intorduction Video',
       'Elevator pitch',
@@ -87,7 +86,8 @@ const projects = [
     title: 'Calendar Application',
     image: 'images/project6.jpg',
     tech: ['Java', 'MVC', 'Design Patterns'],
-    description: 'Event scheduling application built using SOLID principles and MVC architecture.',
+    description:
+      'Event scheduling application built using SOLID principles and MVC architecture.',
     features: [
       'SOLID design principles',
       'Model-View-Controller pattern',

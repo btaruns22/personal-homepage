@@ -65,6 +65,7 @@ This creates an engaging, memorable way to showcase projects that goes beyond st
   - W3C Validator for compliance
 
 ## 📁 Project Structure
+
 ```
 personal-homepage/
 ├── index.html              # Main homepage
@@ -92,6 +93,7 @@ personal-homepage/
 ## 🚀 Features
 
 ### Core Features
+
 - ✅ Responsive design (mobile, tablet, desktop)
 - ✅ Dark/Light theme toggle with localStorage persistence
 - ✅ Smooth scroll navigation
@@ -100,6 +102,7 @@ personal-homepage/
 - ✅ SEO optimized with meta tags
 
 ### Interactive Elements
+
 - ✅ **3D Flip Cards** - Hover/click to reveal project details
 - ✅ **Theme Toggle** - Switch between dark and light modes
 - ✅ **Form Validation** - Client-side email and input validation
@@ -107,6 +110,7 @@ personal-homepage/
 - ✅ **Responsive Navigation** - Adapts to different screen sizes
 
 ### Technical Features
+
 - ✅ ES6 Modules for code organization
 - ✅ No external libraries (vanilla JavaScript)
 - ✅ CSS Grid and Flexbox for layouts
@@ -127,30 +131,35 @@ personal-homepage/
 ### Local Development
 
 1. **Clone the repository**
+
 ```bash
    git clone https://github.com/Aaryapatil113/personal-homepage.git
    cd personal-homepage
 ```
 
 2. **Install dependencies**
+
 ```bash
    npm install
 ```
 
 3. **Run local server** (required for ES6 modules)
+
 ```bash
    # Using Python
    python3 -m http.server 8000
-   
+
    # Or use VS Code Live Server extension
 ```
 
 4. **Open in browser**
+
 ```
    http://localhost:8000
 ```
 
 ### Build Commands
+
 ```bash
 # Check code quality
 npm run lint
@@ -162,23 +171,25 @@ npm run format
 ## 🎨 Design Decisions
 
 ### Color Palette
+
 - **Dark Theme (Default):**
   - Background: `#0f172a` (Navy)
   - Accent: `#3b82f6` (Blue)
   - Text: `#e2e8f0` (Light Gray)
   - Gradient: Purple to Blue
-  
 - **Light Theme:**
   - Background: `#ffffff` (White)
   - Text: `#1e293b` (Dark Gray)
   - Maintains same accent colors
 
 ### Typography
+
 - **Headings:** Poppins (Bold, Modern)
 - **Body:** Inter (Clean, Readable)
 - **Sizing:** Responsive with rem units
 
 ### Layout Philosophy
+
 - Mobile-first responsive design
 - Maximum content width: 1200px
 - Generous whitespace for readability
@@ -187,6 +198,7 @@ npm run format
 ## 📱 Pages Overview
 
 ### 1. Home (index.html)
+
 - Hero section with introduction
 - About section with profile photo and stats
 - Featured projects with 3D flip cards (6 projects)
@@ -195,12 +207,14 @@ npm run format
 - Footer with links
 
 ### 2. Projects (projects.html)
+
 - Complete project gallery
 - All projects displayed with flip cards
 - Call-to-action section
 - Consistent navigation
 
 ### 3. Blog (blog.html) - AI Generated
+
 - Six blog posts on web development topics
 - AI-generated content about:
   - ES6 Modules
@@ -235,7 +249,7 @@ npm run format
 
 ## 🎥 Video Demo
 
-[Watch Video Demo](https://youtu.be/YOUR_VIDEO_LINK) *(To be added)*
+[Watch Video Demo](https://youtu.be/YOUR_VIDEO_LINK) _(To be added)_
 
 ## 🐛 Known Issues
 
