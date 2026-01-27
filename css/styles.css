@@ -321,7 +321,7 @@ body.light-theme .theme-toggle .moon {
 
 /* Override for About section - align left */
 .about .section-title {
-  text-align: left;
+  text-align: center;
 }
 
 .profile-img {
