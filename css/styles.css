@@ -226,12 +226,15 @@ body.light-theme .theme-toggle .moon {
   display: none;
 }
 
-
+/* Consider addin more visual separation between sections */
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+}
+
+.section {
+  padding: var(--spacing-xl) 0; /* More breathing room */
 }
 
 .hero-content {
